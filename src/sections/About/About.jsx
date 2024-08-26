@@ -112,7 +112,7 @@ const About = () => {
                 <p className="p">
                   As a passionate junior front-end developer, I specialize in
                   creating responsive and user-friendly websites and web
-                  applications. My expertise lies in ReactJS, Bootstrap, CSS,
+                  applications. My expertise lies in ReactJS, Tailwind, CSS,
                   and HTML, allowing me to craft engaging and interactive user
                   interfaces.
                 </p>
