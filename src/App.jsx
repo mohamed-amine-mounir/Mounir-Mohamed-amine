@@ -10,6 +10,8 @@ import {
   Projects,
   Contact,
   Footer,
+  Services,
+  Qualification,
 } from "./sections/index";
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
       <Container />
       <Hero />
       <About />
+      <Services />
+      <Qualification />
       <Projects />
       <Contact />
       <Footer />
