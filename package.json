@@ -11,11 +11,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-<<<<<<< HEAD
     "bootstrap-icons": "^1.11.3",
     "lucide-react": "^0.453.0",
-=======
->>>>>>> 3f25108b6adad0a44bf8ae1469fdf9c4e4e41d1c
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
