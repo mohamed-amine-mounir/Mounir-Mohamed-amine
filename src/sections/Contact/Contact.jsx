@@ -3,15 +3,15 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <section id="contact" class="contact bg-white py-5">
-        <div class="container">
-          <div class="contact__content">
-            <div class="contact__title">
+      <section id="contact" className="contact bg-white py-5">
+        <div className="container">
+          <div className="contact__content">
+            <div className="contact__title">
               <p>contact</p>
-              <h3>Don't be shy! Hit me up! 👇</h3>
+              <h3>Don&apos;t be shy! Hit me up! 👇</h3>
             </div>
-            <div class="contact__icons row">
-              <div class="contact__icon-box col-lg ">
+            <div className="contact__icons row">
+              <div className="contact__icon-box col-lg ">
                 <a href="https://wa.me/212660446735" target="_blank">
                   <span>
                     <svg
@@ -28,8 +28,8 @@ const Contact = () => {
                           y1="100%"
                           y2="0%"
                         >
-                          <stop offset="0%" stop-color="currentColor" />
-                          <stop offset="100%" stop-color="currentColor" />
+                          <stop offset="0%" stopColor="currentColor" />
+                          <stop offset="100%" stopColor="currentColor" />
                         </linearGradient>
                         <linearGradient
                           id="logosWhatsappIcon1"
@@ -38,8 +38,8 @@ const Contact = () => {
                           y1="100%"
                           y2="0%"
                         >
-                          <stop offset="0%" stop-color="#f9f9f9" />
-                          <stop offset="100%" stop-color="#fff" />
+                          <stop offset="0%" stopColor="#f9f9f9" />
+                          <stop offset="100%" stopColor="#fff" />
                         </linearGradient>
                       </defs>
                       <path
@@ -58,14 +58,14 @@ const Contact = () => {
                   </span>
                 </a>
                 <a href="https://wa.me/212660446735" target="_blank">
-                  <div class="contact__info ">
+                  <div className="contact__info ">
                     <h3>WhatsApp</h3>
                     <p>+212660446735</p>
                   </div>
                 </a>
               </div>
-              <div class="contact__icon-box col-lg">
-                <a href="mailto:mohamedaminemounir7@gmail.com">
+              <div className="contact__icon-box col-lg">
+                <a href="mailto:mohamedaminemounirdev@gmail.com">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -74,10 +74,10 @@ const Contact = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="tabler-icon tabler-icon-mail"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="tabler-icon tabler-icon-mail"
                     >
                       <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
                       <path d="M3 7l9 6l9 -6"></path>
@@ -85,10 +85,10 @@ const Contact = () => {
                   </span>
                 </a>
 
-                <div class="contact__info">
+                <div className="contact__info">
                   <h3>Mail</h3>
-                  <a href="mailto:mohamedaminemounir7@gmail.com">
-                    mohamedaminemounir7@gmail.com
+                  <a href="mailto:mohamedaminemounirdev@gmail.com">
+                    mohamedaminemounirdev@gmail.com
                   </a>
                 </div>
               </div>
