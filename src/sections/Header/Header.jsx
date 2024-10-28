@@ -2,8 +2,13 @@ import "./Header.css";
 
 <div id="container">
   <h1>
+<<<<<<< HEAD
     <span className="blink-01">Blinking </span>
     <span className="blink-02">Text</span>
+=======
+    <span class="blink-01">Blinking </span>
+    <span class="blink-02">Text</span>
+>>>>>>> 3f25108b6adad0a44bf8ae1469fdf9c4e4e41d1c
   </h1>
 </div>;
 
@@ -52,4 +57,11 @@ const Header = () => {
     </div>
   );
 };
+<<<<<<< HEAD
 export default Header;
+=======
+
+export default Header;
+// props we use it to send from biggest components  to a smallest component
+//  for example we want to write header from app js instead of
+>>>>>>> 3f25108b6adad0a44bf8ae1469fdf9c4e4e41d1c

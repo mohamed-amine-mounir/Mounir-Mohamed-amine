@@ -39,6 +39,7 @@ const About = () => {
             >
               <div id="text-container">
                 <h3 className="display-3 fw-bold lh-sm fs-5">About me</h3>
+<<<<<<< HEAD
                 <p className="p">
                   As a passionate junior front-end developer, I specialize in
                   creating responsive and user-friendly websites and web
@@ -46,6 +47,9 @@ const About = () => {
                   HTML, allowing me to craft engaging and interactive user
                   interfaces.
                 </p>
+=======
+                
+>>>>>>> 3f25108b6adad0a44bf8ae1469fdf9c4e4e41d1c
                 <p className="p">
                   I’m a passionate MERN Stack Developer skilled in building
                   scalable, user-focused applications with MongoDB, Express,

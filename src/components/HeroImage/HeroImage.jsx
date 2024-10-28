@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import React from "react";
+>>>>>>> 3f25108b6adad0a44bf8ae1469fdf9c4e4e41d1c
 import myimg2 from "./1 (2).png";
 import "./HeroImage.css";
 const HeroImage = () => {

@@ -10,8 +10,11 @@ import {
   Projects,
   Contact,
   Footer,
+<<<<<<< HEAD
   Services,
   Qualification,
+=======
+>>>>>>> 3f25108b6adad0a44bf8ae1469fdf9c4e4e41d1c
 } from "./sections/index";
 
 const App = () => {
@@ -21,8 +24,11 @@ const App = () => {
       <Container />
       <Hero />
       <About />
+<<<<<<< HEAD
       <Services />
       <Qualification />
+=======
+>>>>>>> 3f25108b6adad0a44bf8ae1469fdf9c4e4e41d1c
       <Projects />
       <Contact />
       <Footer />
