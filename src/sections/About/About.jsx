@@ -39,13 +39,7 @@ const About = () => {
             >
               <div id="text-container">
                 <h3 className="display-3 fw-bold lh-sm fs-5">About me</h3>
-                <p className="p">
-                  As a passionate junior front-end developer, I specialize in
-                  creating responsive and user-friendly websites and web
-                  applications. My expertise lies in ReactJS, Tailwind, CSS, and
-                  HTML, allowing me to craft engaging and interactive user
-                  interfaces.
-                </p>
+                
                 <p className="p">
                   I’m a passionate MERN Stack Developer skilled in building
                   scalable, user-focused applications with MongoDB, Express,
