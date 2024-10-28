@@ -22,9 +22,8 @@ const Projects = () => {
         "Tailwind CSS",
         "React Router",
         "Framer Motion",
-        "Swiper.js",
       ],
-      url: "https://e-commerce-five-iota-38.vercel.app/",
+      url: "https://ecommerce-nine-wine.vercel.app/",
     },
     {
       img: proj2,
@@ -44,7 +43,6 @@ const Projects = () => {
         "Tailwind CSS",
         "React Router",
         "Framer Motion",
-        "Swiper.js",
       ],
       url: "//aurum-beta.vercel.app/",
     },
