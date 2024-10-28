@@ -1,0 +1,107 @@
+.container {
+  max-width: 1200px;
+}
+#projects {
+  padding: 200px 0;
+  background-color: rgb(248 249 250);
+}
+.projects-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.btn-view {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-view:hover {
+  background-color: #0056b3;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.project-info p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.project-technologies {
+  margin-top: 15px;
+}
+
+.tech-badge {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
